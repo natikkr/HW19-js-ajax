@@ -4,7 +4,6 @@ let button = document.getElementById('addPost');
 let postForm = document.forms.postData;
 let nameInput = postForm.elements.title;
 let authorInput = postForm.elements.author;
-let newPost = {};
 
 
 button.addEventListener('click', function decorator(e) {
